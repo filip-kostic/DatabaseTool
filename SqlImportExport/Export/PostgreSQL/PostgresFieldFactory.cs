@@ -36,13 +36,17 @@ namespace SqlImportExport.Export.PostgreSQL
             {
                 case "text":
                 case "ntext":
+                case "char":
                 case "varchar":
                 case "nvarchar":
                 case "character varying":
                 case "System.String":
                 case "xml":
+                case "time":
                 case "date":
                 case "datetime":
+                case "datetime2":
+                case "datetimeoffset":
                 case "smalldatetime":
                 case "timestamp":
                 case "timestamp without time zone":
