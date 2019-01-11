@@ -35,6 +35,7 @@ namespace SqlImportExport.Export.PostgreSQL
             switch (type)
             {
                 case "text":
+                case "ntext":
                 case "varchar":
                 case "nvarchar":
                 case "character varying":
