@@ -42,6 +42,7 @@ namespace SqlImportExport.Export.PostgreSQL
                 case "xml":
                 case "date":
                 case "datetime":
+                case "smalldatetime":
                 case "timestamp":
                 case "timestamp without time zone":
                 case "uniqueidentifier":
