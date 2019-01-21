@@ -37,6 +37,7 @@ namespace SqlImportExport.Export.PostgreSQL
                 case "text":
                 case "ntext":
                 case "char":
+                case "nchar":
                 case "varchar":
                 case "nvarchar":
                 case "character varying":
